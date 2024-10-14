@@ -22,4 +22,7 @@ public class circulo {
     public void setRadio(double radio){
         this.radio = radio;
     }
+    public double area(){
+        return Math.PI*radio*radio;
+    }
 }
